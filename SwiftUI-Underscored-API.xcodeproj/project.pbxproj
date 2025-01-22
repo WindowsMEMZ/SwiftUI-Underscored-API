@@ -8,15 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		8CF4E1EE2D419AC800EA6EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF4E1EA2D419AC800EA6EEF /* Assets.xcassets */; };
-		8CF4E1EF2D419AC800EA6EEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF4E1EB2D419AC800EA6EEF /* ContentView.swift */; };
-		8CF4E1F02D419AC800EA6EEF /* SwiftUI_Underscored_APIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF4E1EC2D419AC800EA6EEF /* SwiftUI_Underscored_APIApp.swift */; };
+		8CF4E1F62D419C1000EA6EEF /* PrintChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF4E1F52D419C0800EA6EEF /* PrintChanges.swift */; };
+		8CF4E1F82D419DB800EA6EEF /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF4E1F72D419DB600EA6EEF /* Main.swift */; };
+		8CF4E1FA2D419E6600EA6EEF /* AutomaticPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF4E1F92D419E5E00EA6EEF /* AutomaticPadding.swift */; };
+		8CF4E1FC2D41A17F00EA6EEF /* ColorMonochrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF4E1FB2D41A17C00EA6EEF /* ColorMonochrome.swift */; };
+		8CF4E1FE2D41A3FA00EA6EEF /* TightPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF4E1FD2D41A3F700EA6EEF /* TightPadding.swift */; };
+		8CF4E2002D41A4B300EA6EEF /* DefaultContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF4E1FF2D41A4AF00EA6EEF /* DefaultContext.swift */; };
+		8CF4E2022D41A62500EA6EEF /* ColorMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF4E2012D41A62200EA6EEF /* ColorMatrix.swift */; };
+		8CF4E2042D41A83B00EA6EEF /* AddingBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF4E2032D41A83500EA6EEF /* AddingBackground.swift */; };
+		8CF4E2062D41AABB00EA6EEF /* OnBindingChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF4E2052D41AAB600EA6EEF /* OnBindingChange.swift */; };
+		8CF4E2082D41AB8800EA6EEF /* ContainerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF4E2072D41AB8100EA6EEF /* ContainerShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8CF4E1D92D419AB800EA6EEF /* SwiftUI-Underscored-API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Underscored-API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF4E1EA2D419AC800EA6EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8CF4E1EB2D419AC800EA6EEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8CF4E1EC2D419AC800EA6EEF /* SwiftUI_Underscored_APIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Underscored_APIApp.swift; sourceTree = "<group>"; };
+		8CF4E1F32D419BE600EA6EEF /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		8CF4E1F42D419BE600EA6EEF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		8CF4E1F52D419C0800EA6EEF /* PrintChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintChanges.swift; sourceTree = "<group>"; };
+		8CF4E1F72D419DB600EA6EEF /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		8CF4E1F92D419E5E00EA6EEF /* AutomaticPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticPadding.swift; sourceTree = "<group>"; };
+		8CF4E1FB2D41A17C00EA6EEF /* ColorMonochrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMonochrome.swift; sourceTree = "<group>"; };
+		8CF4E1FD2D41A3F700EA6EEF /* TightPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TightPadding.swift; sourceTree = "<group>"; };
+		8CF4E1FF2D41A4AF00EA6EEF /* DefaultContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultContext.swift; sourceTree = "<group>"; };
+		8CF4E2012D41A62200EA6EEF /* ColorMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMatrix.swift; sourceTree = "<group>"; };
+		8CF4E2032D41A83500EA6EEF /* AddingBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingBackground.swift; sourceTree = "<group>"; };
+		8CF4E2052D41AAB600EA6EEF /* OnBindingChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBindingChange.swift; sourceTree = "<group>"; };
+		8CF4E2072D41AB8100EA6EEF /* ContainerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,8 @@
 		8CF4E1D02D419AB800EA6EEF = {
 			isa = PBXGroup;
 			children = (
+				8CF4E1F32D419BE600EA6EEF /* LICENSE */,
+				8CF4E1F42D419BE600EA6EEF /* README.md */,
 				8CF4E1ED2D419AC800EA6EEF /* SwiftUI-Underscored-API */,
 				8CF4E1DA2D419AB800EA6EEF /* Products */,
 			);
@@ -49,8 +69,16 @@
 		8CF4E1ED2D419AC800EA6EEF /* SwiftUI-Underscored-API */ = {
 			isa = PBXGroup;
 			children = (
-				8CF4E1EC2D419AC800EA6EEF /* SwiftUI_Underscored_APIApp.swift */,
-				8CF4E1EB2D419AC800EA6EEF /* ContentView.swift */,
+				8CF4E1F72D419DB600EA6EEF /* Main.swift */,
+				8CF4E1F52D419C0800EA6EEF /* PrintChanges.swift */,
+				8CF4E1F92D419E5E00EA6EEF /* AutomaticPadding.swift */,
+				8CF4E1FB2D41A17C00EA6EEF /* ColorMonochrome.swift */,
+				8CF4E1FD2D41A3F700EA6EEF /* TightPadding.swift */,
+				8CF4E1FF2D41A4AF00EA6EEF /* DefaultContext.swift */,
+				8CF4E2012D41A62200EA6EEF /* ColorMatrix.swift */,
+				8CF4E2032D41A83500EA6EEF /* AddingBackground.swift */,
+				8CF4E2052D41AAB600EA6EEF /* OnBindingChange.swift */,
+				8CF4E2072D41AB8100EA6EEF /* ContainerShape.swift */,
 				8CF4E1EA2D419AC800EA6EEF /* Assets.xcassets */,
 			);
 			path = "SwiftUI-Underscored-API";
@@ -90,6 +118,7 @@
 				TargetAttributes = {
 					8CF4E1D82D419AB800EA6EEF = {
 						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
 					};
 				};
 			};
@@ -128,8 +157,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CF4E1EF2D419AC800EA6EEF /* ContentView.swift in Sources */,
-				8CF4E1F02D419AC800EA6EEF /* SwiftUI_Underscored_APIApp.swift in Sources */,
+				8CF4E2042D41A83B00EA6EEF /* AddingBackground.swift in Sources */,
+				8CF4E2082D41AB8800EA6EEF /* ContainerShape.swift in Sources */,
+				8CF4E2062D41AABB00EA6EEF /* OnBindingChange.swift in Sources */,
+				8CF4E1F82D419DB800EA6EEF /* Main.swift in Sources */,
+				8CF4E2022D41A62500EA6EEF /* ColorMatrix.swift in Sources */,
+				8CF4E2002D41A4B300EA6EEF /* DefaultContext.swift in Sources */,
+				8CF4E1FA2D419E6600EA6EEF /* AutomaticPadding.swift in Sources */,
+				8CF4E1FE2D41A3FA00EA6EEF /* TightPadding.swift in Sources */,
+				8CF4E1FC2D41A17F00EA6EEF /* ColorMonochrome.swift in Sources */,
+				8CF4E1F62D419C1000EA6EEF /* PrintChanges.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -278,6 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.memz233.SwiftUI-Underscored-API";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
